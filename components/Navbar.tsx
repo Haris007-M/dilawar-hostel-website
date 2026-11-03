@@ -48,7 +48,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href={`tel:${SITE.phoneTel}`} className="ml-2 inline-flex items-center gap-2 rounded-full bg-sun px-4 py-2 font-semibold text-ink transition hover:brightness-95">
-            <Phone size={15} /> Call now
+            <Phone size={15} /> Call me now
           </a>
         </nav>
         <button className="md:hidden" onClick={() => setOpen(!open)} aria-label="Toggle menu" aria-expanded={open}>
