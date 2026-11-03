@@ -22,7 +22,7 @@ export default function Contact() {
     <section id="contact" className="scroll-mt-16 bg-ink py-20 text-paper sm:py-28">
       <div className="container-x grid gap-12 lg:grid-cols-2">
         <Reveal>
-          <h2 className="font-display text-3xl font-extrabold sm:text-5xl">Book a bed today</h2>
+          <h2 className="font-display text-3xl font-extrabold sm:text-5xl">Book a bed today in AL SALIH HOSTEL</h2>
           <p className="mt-4 max-w-md text-lg text-paper/80">Beds fill quickly at the start of each semester. Message us to check availability.</p>
           <div className="mt-8 space-y-4">
             <a href={waLink("Hello! I want to know about hostel rooms.")} target="_blank" rel="noreferrer" className="flex items-center gap-3 font-semibold hover:text-sun"><MessageCircle className="text-wa" /> WhatsApp: {SITE.phoneDisplay}</a>
