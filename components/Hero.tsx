@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="container-x relative grid items-center gap-12 pb-16 lg:grid-cols-[1.2fr_1fr]">
         <motion.div variants={container} initial="hidden" animate="show">
           <motion.p variants={item} className="mb-4 inline-flex items-center gap-2 rounded-full border border-paper/25 px-3 py-1 text-sm">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-wa" /> Beds available in {HOSTELS.length} hostels in {SITE.city}
+            <span className="h-2 w-2 animate-pulse rounded-full bg-wa" /> Beds available in {HOSTELS.length}Al Salih hostels in {SITE.city}
           </motion.p>
           <motion.h1 variants={item} className="font-display text-4xl font-extrabold leading-[1.05] sm:text-6xl">
             A room that feels like home, from {fmt(cheapest)} a month.
